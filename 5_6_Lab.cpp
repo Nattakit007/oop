@@ -17,23 +17,23 @@ public:
 class double_calculator : public prototype_calculator
 {
 public:
-    double add(double x, double y) override
+    double add(double x, double y) 
     {
         return x + y;
     }
-    double subtract(double x, double y) override
+    double subtract(double x, double y) 
     {
         return x - y;
     }
-    double multiply(double x, double y) override
+    double multiply(double x, double y) 
     {
         return x * y;
     }
-    double sum(double x1, double x2 = 0, double x3 = 0, double x4 = 0, double x5 = 0, double x6 = 0, double x7 = 0, double x8 = 0, double x9 = 0, double x10 = 0) override
+    double sum(double x1, double x2 = 0, double x3 = 0, double x4 = 0, double x5 = 0, double x6 = 0, double x7 = 0, double x8 = 0, double x9 = 0, double x10 = 0) 
     {
         return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
     }
-    double avg(double x1, double x2 = 0, double x3 = 0, double x4 = 0, double x5 = 0) override
+    double avg(double x1, double x2 = 0, double x3 = 0, double x4 = 0, double x5 = 0) 
     {
         return (x1 + x2 + x3 + x4 + x5) / 5.0;
     }
