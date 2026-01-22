@@ -10,7 +10,6 @@ int main()
     const float PI = 3.14159;
     string name1 = "Hello_C++";
     string name2 = "KMITL";
-
     cout << "Enter two integers: separated by space: ";
     cin >> num1 >> num2;
     cout << "You entered: " << num1 << " and " << num2 << endl;
